@@ -1,6 +1,9 @@
 #subscriber {
     background: var(--parple);
 }
+#subscriber h2 {
+    text-align: center;
+}
 .form-subs {
     padding: 22px;
     text-align: center;
