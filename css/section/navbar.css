@@ -2,22 +2,28 @@
     background-color:#fff;
 }
 a.nav-link,
-.btn-nav {
+.btn {
     font-size: 16px;
     color: var(--parple);
     text-transform: capitalize;
     font-weight: 500;
 }
 a.nav-link:hover {
-    color: var(--parple-o);
+    color: var(--black);
 }
 #navbar .btn-nav {
     background-color:#fff;
 }
-#navbar .btn-nav:hover,
 #navbar .active {
     background-color: var(--parple);
     color: #fff;
     text-transform: uppercase;
     font-weight: 300;
+}
+.btn-regi {
+    background-color: var(--parple);
+    color: #fff;
+}
+.btn-regi:hover {
+    color: var(--gray)
 }
