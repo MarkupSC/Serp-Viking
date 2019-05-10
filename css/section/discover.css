@@ -23,20 +23,21 @@
     margin-left: 10px;
 }
 .btn-discover {
-    padding: 5px 25px;
+    padding: 15px 35px;
     text-transform: uppercase;
     font-size: 18px;
     background-color: #fff;
     color: var(--parple);
-    border-radius: 0;
+    border-radius: 5px;
     margin: auto;
     transition: 0.3s;
 }
-#discover .row:hover .box {
+/* #discover .row:hover .box {
     color: var(--parple);
     background-color: #fff;
-}
-#discover .row:hover .btn-discover {
+} */
+#discover .btn-discover:hover  {
     color: #fff;
-    background-color: var(--parple);
+    background-color: var(--parple-o);
+    border: 1px solid #fff;
 }
