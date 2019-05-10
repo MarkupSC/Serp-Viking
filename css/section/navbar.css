@@ -23,6 +23,7 @@ a.nav-link:hover {
 .btn-regi {
     background-color: var(--parple);
     color: #fff;
+    text-transform: uppercase;
 }
 .btn-regi:hover {
     color: var(--gray)
