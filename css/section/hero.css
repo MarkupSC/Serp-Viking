@@ -1,0 +1,16 @@
+.jumbotron {
+    padding: 150px 0;
+    background: transparent;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/banner.jpg) no-repeat;
+    background-position: center right;
+    background-size: cover;
+    margin-bottom: 0;
+}
+.jumbotron .container {
+    border-left: 3px solid #fff;
+}
+.jumbotron h1, .jumbotron p {
+    max-width: 460px;
+    color: #fff;
+    margin: 0;
+}

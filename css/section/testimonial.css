@@ -1,0 +1,39 @@
+#tesimonial .name h2 {
+    max-width: 750px;
+}
+#tesimonial h1 {
+    border-bottom: 1px solid #000;
+}
+#tesimonial:hover #tesimonial h2 {
+    border-bottom: 1px solid #000;
+}
+.tesimonial {
+    padding: 25px;
+    margin-bottom: 15px;
+    border: 3px solid var(--gray);
+}
+.tesimonial:hover {
+    border-color: var(--parple);
+}
+.tesimonial p {
+    color: var(--gray);
+}
+.tesimonial .client {
+    width: 220px;
+    margin: auto;
+}
+.tesimonial .client img {
+    float: left;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+}
+.tesimonial .client .name h2 {
+    margin-left: 120px;
+    line-height: 90px;
+    font-weight: 300;
+}
+#tesimonial a {
+    text-decoration: none;
+    color: var(--gray)
+}

@@ -1,0 +1,37 @@
+#subscriber {
+    background: var(--parple);
+}
+.form-subs {
+    padding: 22px;
+    text-align: center;
+    border-radius: 999px;
+}
+.btn-subs {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid var(--parple);
+    border-radius: 100%;
+    position: absolute;
+    right: 19px;
+    top: 3px;
+}
+.btn-subs i {
+    line-height: 40px;
+}
+.btn-subs:hover {
+    background-color: var(--parple);
+    color: #fff;
+}
+.checkbox {
+    padding: 15px 25px;
+    color: #fff;
+}
+.checkbox a {
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+#knoledge h1 {
+    border-bottom: 1px solid #000;
+}
+#knoledge img {
+    margin-bottom: 25px;
+}
+#knoledge .description {
+    max-width: 300px;
+    color: var(--black);
+    margin: auto;
+}
+#knoledge h2 {
+    font-weight: 500;
+}
+#knoledge h2, p {
+    text-align: left;
+    margin: 15px 0;
+}

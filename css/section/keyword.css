@@ -1,0 +1,15 @@
+#keyword {
+    border-bottom: 3px solid #000;
+}
+#keyword p {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+i.icon {
+    color: var(--parple);
+}
+.icon-box {
+    padding: 10px;
+}

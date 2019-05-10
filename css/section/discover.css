@@ -1,0 +1,42 @@
+#discover {
+    margin: 10px auto;
+}
+#discover .box {
+    background-color: var(--parple);
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    transition: 0.3s;
+}
+#discover .content {
+    margin: auto;
+    align-content: center;
+    align-items: center;
+}
+#discover img {
+    width: 100%;
+}
+#discover .img {
+    padding: 0; 
+}
+#discover h2 {
+    margin-left: 10px;
+}
+.btn-discover {
+    padding: 5px 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #fff;
+    color: var(--parple);
+    border-radius: 0;
+    margin: auto;
+    transition: 0.3s;
+}
+#discover .row:hover .box {
+    color: var(--parple);
+    background-color: #fff;
+}
+#discover .row:hover .btn-discover {
+    color: #fff;
+    background-color: var(--parple);
+}

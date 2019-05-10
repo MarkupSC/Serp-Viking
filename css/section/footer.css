@@ -1,0 +1,27 @@
+#footer {
+    background-color: var(--gray);
+    color: var(--black);
+}
+#footer h2 {
+    font-weight: 500;
+    text-align: left;
+}
+#footer ul li {
+    list-style: none;
+}
+#footer ul li a {
+    color: var(--black);
+    text-decoration: none;
+}
+#footer li a {
+    display: block;
+    padding: 5px;
+    position: relative;
+}
+#footer li a::before {
+    content: "\f04b";
+    font-family: FontAwesome;
+    position: absolute;
+    left: -15px;
+    color: var(--parple);
+}
